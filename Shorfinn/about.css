@@ -1,0 +1,213 @@
+body,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #ede8dc;
+  font-family: "Alegreya", sans-serif;
+  font-weight: 700;
+  overflow-x: hidden;
+  background-color: #fffbe9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 80px;
+}
+
+.navbar .navbar-brand {
+  max-height: 195px;
+  position: relative;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.navbar-nav a:not(.active):hover {
+  opacity: 0.6;
+  transition: 0.3s ease opacity;
+}
+
+.navbar-nav a {
+  transition: 0.3s ease opacity;
+  color: black;
+}
+
+.navbar-nav .nav-item .active {
+  display: flex;
+  padding: 8px 16px 8px 16px;
+  background-color: #1d2f6f;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s ease background-color, 0.3s ease color, 0.3s ease border;
+  border: black 1px solid;
+  overflow-y: hidden;
+}
+
+.navbar-nav .nav-item .active:hover {
+  transition: 0.3s ease background-color, 0.3s ease color, 0.3s ease border;
+  border: black 1px solid;
+  background-color: white;
+  color: black;
+}
+
+.blob svg {
+  position: absolute;
+  width: 130vh;
+  left: 125vh;
+  bottom: -30vh;
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+.blob p {
+  position: relative;
+  left: 158vh;
+  top: 20vh;
+  width: 37vh;
+  text-align: right;
+  letter-spacing: 0.4px;
+  word-spacing: 2px;
+}
+
+.blob span {
+  position: relative;
+  padding: 15px;
+}
+
+.card {
+  width: 125vh;
+  height: 110vh;
+  background-color: #1d2f6f;
+  border-radius: 5px;
+  border: 1px solid black;
+  bottom: 50vh;
+  left: 7vh;
+  position: relative;
+}
+
+.card h1 {
+  padding-left: 7vh;
+  padding-top: 2vh;
+}
+
+.card p {
+  width: 95vh;
+  padding-left: 7vh;
+  padding-top: 4vh;
+  font-weight: 200;
+}
+
+.card .project-1 {
+  position: relative;
+  width: 45vh;
+  height: 22.5vh;
+  border: 1px solid black;
+  left: 7vh;
+  top: 12vh;
+}
+
+.card .project-1 img {
+  max-width: 50vh;
+  max-height: 35vh;
+  transition: 0.5s ease all;
+}
+
+.card .project-2 img {
+  max-width: 50vh;
+  max-height: 35vh;
+  transition: 0.5s ease all;
+}
+
+.card .project-1 img:hover,
+.project-2 img:hover {
+  transform: translateY(-5px);
+  transition: 0.5s ease all;
+  cursor: pointer;
+  opacity: 0.7;
+  filter: blur(0.5px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card .project-2 {
+  position: relative;
+  width: 50vh;
+  height: 22.5vh;
+  border: 1px solid black;
+  left: 64vh;
+  bottom: 9.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .contact-text {
+  font-weight: 200;
+}
+
+.card .contact input {
+  position: relative;
+  width: 12vh;
+  height: 4vh;
+  left: 7vh;
+  top: 4vh;
+  border-radius: 2vh;
+  border: none;
+  background-color: #1d75bc;
+  color: #ede8dc;
+}
+
+.card .contact input:hover {
+  background-color: #3d4d83;
+  color: #ede8dc;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 9.8vh;
+  left: 7.4vh;
+  font-size: large;
+}
+
+.phone-icon {
+  font-size: 15px;
+}
+
+.github-icon {
+  font-size: 17px;
+}
+
+.icons i {
+  transition: 0.4s ease all;
+}
+
+.icons i:hover {
+  opacity: 0.7;
+  transform: translateY(-2px);
+  transition: 0.4s ease all;
+  cursor: pointer;
+}
+
+.holding-coffe {
+  max-width: 100px;
+  position: absolute;
+  z-index: 999;
+  right: -1.2vh;
+  bottom: -40vh;
+}

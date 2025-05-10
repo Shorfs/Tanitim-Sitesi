@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Bana Ulas / Shorfinn</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="S-logo.png" alt="Enes - Logo" class="logo__img" />
+        </a>
+        <button class="navbar__toggle" aria-label="Menüyü aç/kapat">☰</button>
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__link"
+              ><span class="navbar__span">01.</span> Ana Sayfa</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__link"
+              ><span class="navbar__span">02.</span> Hakkımda</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="contact.html" class="navbar__link"
+              ><span class="navbar__span">03.</span> Bana Ulaş</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- CONTACT - SECTION -->
+
+    <section class="contact" id="contact">
+      <h2 class="contact__title">İletişim</h2>
+      <form
+        action="https://formspree.io/f/xkgrzjpa"
+        method="POST"
+        class="contact__form"
+      >
+        <input
+          type="text"
+          name="name"
+          class="contact__input"
+          placeholder="Adınız"
+          required
+          aria-label="Adınızı girin"
+        />
+        <input
+          type="email"
+          name="email"
+          class="contact__input"
+          placeholder="E-postanız"
+          required
+          aria-label="E-posta adresinizi girin"
+        />
+        <textarea
+          name="message"
+          class="contact__textarea"
+          placeholder="Siparisinizi yaziniz / Mesajinizi yaziniz"
+          required
+          aria-label="Mesajınızı yazın"
+        ></textarea>
+        <button type="submit" class="contact__button">Mesaj Gönder</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__content">
+        <p class="footer__text">© 2025 Enes | Kod ve tutkuyla yapıldı</p>
+        <ul class="footer__links">
+          <li>
+            <a
+              href="https://github.com/Shorfs"
+              target="_blank"
+              class="footer__link"
+              aria-label="Enes'in GitHub profili"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/enes-karakas-405981364/"
+              target="_blank"
+              class="footer__link"
+              aria-label="Enes'in LinkedIn profili"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="footer__link"
+              aria-label="Enes'e e-posta gönder"
+              >E-posta</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="contact.js"></script>
+  </body>
+</html>

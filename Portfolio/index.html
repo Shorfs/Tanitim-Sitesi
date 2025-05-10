@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="Enes, İstanbul’da modern ve uygun fiyatlı web tasarım hizmetleri sunar. Portföyümü keşfedin!"
+    />
+    <meta
+      name="keywords"
+      content="freelance web tasarım, İstanbul web tasarımcı, portföy sitesi"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolyo / Shorfinn</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="S-logo.png" alt="Enes - Logo" class="logo__img" />
+        </a>
+        <button class="navbar__toggle" aria-label="Menüyü aç/kapat">☰</button>
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__link"
+              ><span class="navbar__span">01.</span> Ana Sayfa</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__link"
+              ><span class="navbar__span">02.</span> Hakkımda</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="contact.html" class="navbar__link"
+              ><span class="navbar__span">03.</span> Bana Ulaş</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Merhaba, ben Enes</h1>
+        <h2 class="hero__subtitle">Frontend Web Developer</h2>
+        <p class="hero__description">
+          Kullanıcı dostu, modern ve performans odaklı web siteleri tasarlıyor
+          ve kodluyorum.
+        </p>
+        <a href="#projects" class="hero__cta">Projelerimi Gör</a>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects__title">Projeler</h2>
+      <div class="projects__grid">
+        <div class="project-card">
+          <img
+            src="Screenshot from 2025-05-06 18-06-49.png"
+            alt="Proje 1 ekran görüntüsü"
+            class="project-card__img"
+            loading="lazy"
+          />
+          <div class="project-card__content">
+            <h3 class="project-card__title">Tanitim Siteleri</h3>
+            <p class="project-card__description">
+              HTML, CSS ve JavaScript ile geliştirilmiş, kullanıcı dostu bir
+              tanitim projesi.
+            </p>
+            <div class="project-card__links">
+              <a
+                href="https://example.com"
+                target="_blank"
+                class="project-card__link"
+                >Canlı Gör</a
+              >
+              <a
+                href="https://github.com/Shorfs"
+                target="_blank"
+                class="project-card__link"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="Screenshot from 2025-05-06 18-08-11.png"
+            alt="Proje 2 ekran görüntüsü"
+            class="project-card__img"
+            loading="lazy"
+          />
+          <div class="project-card__content">
+            <h3 class="project-card__title">Tek Safyalik Siteler</h3>
+            <p class="project-card__description">
+              HTML, CSS ve JavaScript ile kodlanmış kişisel tek sayfalik site
+              projesi.
+            </p>
+            <div class="project-card__links">
+              <a
+                href="https://example.com"
+                target="_blank"
+                class="project-card__link"
+                >Canlı Gör</a
+              >
+              <a
+                href="https://github.com/Shorfs"
+                target="_blank"
+                class="project-card__link"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="image.png"
+            alt="Proje 3 ekran görüntüsü"
+            class="project-card__img"
+            loading="lazy"
+          />
+          <div class="project-card__content">
+            <h3 class="project-card__title">Full Portfolyo Sitesi</h3>
+            <p class="project-card__description">
+              HTML5, CSS3 ve JavaScript kullanılarak geliştirilmiş bir full
+              website projesi.
+            </p>
+            <div class="project-card__links">
+              <a
+                href="https://example.com"
+                target="_blank"
+                class="project-card__link"
+                >Canlı Gör</a
+              >
+              <a
+                href="https://github.com/Shorfs"
+                target="_blank"
+                class="project-card__link"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="packages">
+      <h2 class="packages__title">Paketler</h2>
+      <div class="packages__grid">
+        <div class="package-card package-card--featured">
+          <span class="package-card__badge" aria-hidden="true">Popüler</span>
+          <h3 class="package-card__title">Classic</h3>
+          <ul class="package-card__features">
+            <li>Hazir sablon</li>
+            <li>1 sayfa tasarimi</li>
+            <li>Mobil uyumlu</li>
+            <li>2 Gunde teslim</li>
+            <li>1 Revizyon</li>
+          </ul>
+          <p class="package-card__price">2,199 TL</p>
+          <a
+            href="contact.html"
+            target="_blank"
+            class="package-card__button"
+            aria-label="Classic paketini Bionluk’ta gör"
+            >Iletisime gec</a
+          >
+        </div>
+        <div class="package-card package-card--featured">
+          <span class="package-card__badge" aria-hidden="true">Popüler</span>
+          <h3 class="package-card__title">Classic+</h3>
+          <ul class="package-card__features">
+            <li>HTML5, CSS3 ve JavaScript</li>
+            <li>2 sayfa tasarımı</li>
+            <li>Mobil uyumlu</li>
+            <li>6 Gunde teslim</li>
+            <li>2 Revizyon</li>
+          </ul>
+          <p class="package-card__price">3,299 TL</p>
+          <a
+            href="contact.html"
+            target="_blank"
+            class="package-card__button"
+            aria-label="Classic+ paketini Bionluk’ta gör"
+            >Iletisime gec</a
+          >
+        </div>
+        <div class="package-card">
+          <h3 class="package-card__title">Gold</h3>
+          <ul class="package-card__features">
+            <li>HTML5, CSS3 ve JavaScript</li>
+            <li>3 sayfa tasarımı</li>
+            <li>Mobil uyumlu</li>
+            <li>E-posta desteği</li>
+            <li>10 Gunde teslim</li>
+            <li>3 Revizyon</li>
+          </ul>
+          <p class="package-card__price">5,499 TL</p>
+          <a
+            href="contact.html"
+            target="_blank"
+            class="package-card__button"
+            aria-label="Gold paketini Bionluk’ta gör"
+            >Iletisime gec</a
+          >
+        </div>
+        <div class="package-card">
+          <h3 class="package-card__title">Premium</h3>
+          <ul class="package-card__features">
+            <li>HTML5, CSS3 ve JavaScript</li>
+            <li>Istege bagli sayfa sayisi</li>
+            <li>Mobil uyumlu</li>
+            <li>E-posta destegi</li>
+            <li>14 Gunde teslim</li>
+            <li>6 Ay teknik destek</li>
+            <li>Domain + Hosting Destegi</li>
+            <li>4 Revizyon</li>
+          </ul>
+          <p class="package-card__price">6,299 TL</p>
+          <a
+            href="contact.html"
+            target="_blank"
+            class="package-card__button"
+            aria-label="Premium paketini Bionluk’ta gör"
+            >Iletisime gec</a
+          >
+        </div>
+      </div>
+      <p class="packages__description">
+        Sunduğum paketler, her türlü ihtiyaca uygun çözümler sunmak için
+        tasarlandı. Her bütçeye ve hedefe uygun bir seçenek bulabilirsiniz.
+        Classic ve Classic+ paketleri, hızlı ve ekonomik çözümler arayanlar için
+        idealdir; Gold paketi, dinamik ve içerik odaklı siteler için
+        mükemmeldir; Premium paket ise tamamen özelleştirilmiş, uzun vadeli
+        projeler için tasarlanmıştır. Tüm paketler, modern tasarım
+        standartlarına uygun, kullanıcı dostu ve mobil uyumlu web siteleri
+        sunar. Hangi paketin sizin için uygun olduğundan emin değilseniz, bana
+        ulaşarak ihtiyaçlarınıza özel bir çözüm oluşturabiliriz!
+      </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__content">
+        <p class="footer__text">© 2025 Enes | Kod ve tutkuyla yapıldı</p>
+        <ul class="footer__links">
+          <li>
+            <a
+              href="https://github.com/Shorfs"
+              target="_blank"
+              class="footer__link"
+              aria-label="Enes'in GitHub profili"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/enes-karakas-405981364/"
+              target="_blank"
+              class="footer__link"
+              aria-label="Enes'in LinkedIn profili"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="footer__link"
+              aria-label="Enes'e e-posta gönder"
+              >E-posta</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
